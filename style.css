@@ -43,3 +43,51 @@ a {
 
 /* ------------ */
 
+.top {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 100px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.core {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.top img {
+    width: 600px;
+    height: auto;
+}
+
+.signup {
+    width: 180px;
+    height: 55px;
+    font-size: 24px;
+    margin-top: 10px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    font-weight: 500;
+    color: #F9FAF8;
+    border-color: #3882F6;
+}
+.signup:hover {
+    background-color: #205cbc;
+    border-color: #205cbc;
+}
+
+.toptext {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* ----------- */
+
