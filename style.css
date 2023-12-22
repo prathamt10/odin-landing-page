@@ -50,6 +50,7 @@ a {
     background-color: #1F2937;
     align-items: center;
     padding: 100px;
+    flex: 1;
 }
 
 .heading {
@@ -91,3 +92,37 @@ a {
 
 /* ----------- */
 
+.info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.random-text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+    margin: 50px;
+}
+
+.staff {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 200px;
+}
+
+.text {
+    text-align: center;
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.person img {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+}
