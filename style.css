@@ -126,3 +126,19 @@ a {
     height: 250px;
     border-radius: 20px;
 }
+
+/* ----------- */
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
